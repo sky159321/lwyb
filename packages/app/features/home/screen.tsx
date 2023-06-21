@@ -49,6 +49,10 @@ export function HomeScreen() {
         <Button {...linkProps}>Link to user</Button>
       </XStack>
 
+      <XStack>
+        <Button {...useLink({ href: '/user/signIn' })}>Sign In</Button>
+      </XStack>
+
       <SheetDemo />
     </YStack>
   )
